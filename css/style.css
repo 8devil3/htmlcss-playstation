@@ -82,6 +82,11 @@ main {
     background-size: cover;
 }
 
+#jumbotron .container,
+#jumbotron div.row {
+    height: 100%;
+}
+
 #jumbotron img {
     width: 16rem;
 }
@@ -102,4 +107,5 @@ section ._img-box img {
 section .active {
     border: 2px var(--blue) solid;
     border-radius: 1rem;
+    padding: 0.25rem;
 }
