@@ -89,3 +89,17 @@ main {
 #jumbotron h1 {
     font-size: 3rem;
 }
+
+
+/* sezione 1 */
+section ._img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+section .active {
+    border: 2px var(--blue) solid;
+    border-radius: 1rem;
+}
