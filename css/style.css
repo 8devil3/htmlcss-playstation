@@ -1,0 +1,56 @@
+/* reset CSS */
+:root {
+    /* font */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+
+    /* colori */
+    --blue: #0070D1;
+}
+
+
+
+
+
+/* header */
+header ._htop {
+    background-color: black;
+    padding: 0.3rem 0.25rem;
+}
+
+header ._htop img {
+    height: 1rem;
+    display: block;
+    margin-left: auto;
+}
+
+header nav .logo {
+    height: 3rem;
+}
+
+header #navbarNavDropdown {
+    justify-content: space-between;
+}
+
+header ._icn-search {
+    height: 1.5rem;
+}
+
+header ._ps-icon {
+    height: 4rem;
+}
+
+header ._ps-icon-link {
+    display: block;
+    text-align: center;
+}
+
+header ._link-news::before {
+    content: "\f111";
+    font-family: "Font Awesome 6 Free";
+    font-size: 0.3rem;
+    font-weight: 900;
+    color: var(--blue);
+    vertical-align: middle;
+    margin-right: 0.5rem
+}
