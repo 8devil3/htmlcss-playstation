@@ -13,15 +13,27 @@
 
 
 /* header */
+header {
+    background-color: white;
+}
+
 header ._htop {
     background-color: black;
-    padding: 0.3rem 0.25rem;
+    height: 1.6rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 0 0.5rem;
+    align-items: center;
 }
 
 header ._htop img {
     height: 1rem;
     display: block;
-    margin-left: auto;
+}
+
+header .navbar {
+    height: 4.5rem;
 }
 
 header nav .logo {
@@ -53,4 +65,27 @@ header ._link-news::before {
     color: var(--blue);
     vertical-align: middle;
     margin-right: 0.5rem
+}
+
+
+main {
+    margin-top: 6.1rem;
+}
+
+
+/* jumbotron */
+#jumbotron {
+    height: 700px;
+    background-image: url("../img/jumbo-bg.png");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#jumbotron img {
+    width: 16rem;
+}
+
+#jumbotron h1 {
+    font-size: 3rem;
 }
