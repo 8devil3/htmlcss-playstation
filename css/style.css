@@ -1,13 +1,15 @@
 /* reset CSS */
 :root {
-    /* font */
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-
+    
     /* colori */
     --blue: #0070D1;
     --darkBlue: #161C3B;
     --footerBlue: #00439C;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
 }
 
 
@@ -19,6 +21,13 @@ a, a:hover {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 3.5rem;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
 
 
 
@@ -107,7 +116,7 @@ main {
 
 
 /* sezione 1 */
-section ._img-box img {
+#section-1 ._img-box img {
     width: 100%;
     height: 100%;
     object-fit: cover;
@@ -116,10 +125,21 @@ section ._img-box img {
     padding: 0.25rem;
 }
 
-section .active {
+#section-1 .active {
     border: 2px var(--blue) solid;
 }
 
+
+
+
+/* sezione 2 */
+#section-2 button {
+    border-radius: 0;
+}
+
+#section-2 ._active {
+    border-bottom: 2px var(--blue) solid;
+}
 
 
 
@@ -147,6 +167,10 @@ section .active {
 /* sezione 4 */
 #section-4 {
     background-color: #333;
+}
+
+#section-4 article img {
+    border-radius: 1rem;
 }
 
 
