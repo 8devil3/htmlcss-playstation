@@ -138,6 +138,13 @@ main {
 
 #section-1 img {
     border-radius: 1rem;
+    transform: translate(0, 0);
+    transition: transform 0.3s;
+}
+
+#section-1 img:hover {
+    transform: translate(0, -8%);
+    cursor: pointer;
 }
 
 
