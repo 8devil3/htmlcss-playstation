@@ -111,6 +111,28 @@ header ul li.list-group-item a:hover {
     box-shadow: 0 0 0.25rem #00000080;
 }
 
+header .dropdown-toggle::after {
+    content: "\f078";
+    font-family: "Font Awesome 6 Free";
+    font-size: 0.8rem;
+    font-weight: 900;
+    border: 0;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+    display: inline;
+}
+
+header .nav-item:focus-within .dropdown-toggle::after {
+    content: "\f077";
+    font-family: "Font Awesome 6 Free";
+    font-size: 0.8rem;
+    font-weight: 900;
+    border: 0;
+    margin-left: 0.5rem;
+    vertical-align: middle;
+    display: inline;
+}
+
 
 
 
