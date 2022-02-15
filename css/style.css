@@ -7,11 +7,16 @@
     /* colori */
     --blue: #0070D1;
     --darkBlue: #161C3B;
+    --footerBlue: #00439C;
 }
 
 
 ._obj-fit {
     object-fit: contain;
+}
+
+a, a:hover {
+    text-decoration: none;
 }
 
 
@@ -172,4 +177,15 @@ section .active {
 /* sezione 9 */
 #section-9 .row {
     max-width: 35rem;
+}
+
+
+
+/* footer */
+footer {
+    background-color: var(--footerBlue);
+}
+
+footer ._sonyLogo {
+    width: 6rem;
 }
