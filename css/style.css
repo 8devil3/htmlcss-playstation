@@ -8,6 +8,7 @@
     --grey1: #bbb;
     --grey2: #999;
     --grey3: #ddd;
+    --grey4: #333;
     --white: #fff;
 }
 
@@ -228,7 +229,7 @@ main {
 
 /* sezione 4 */
 #section-4 {
-    background-color: #333;
+    background-color: var(--grey4);
 }
 
 #section-4 article img {
