@@ -6,8 +6,13 @@
 
     /* colori */
     --blue: #0070D1;
+    --darkBlue: #161C3B;
 }
 
+
+._obj-fit {
+    object-fit: contain;
+}
 
 
 
@@ -140,19 +145,31 @@ section .active {
 }
 
 
+
+
 /* sezione 6 */
 #section-6 {
     background-color: #999;
-}
-
-#section-6 {
     height: 360px;
 }
 
-#section-6 .logo {
+#section-6 .logo,
+#section-8 .logo {
     max-width: 20rem;
 }
 
-#section-6 ._img-right {
-    object-fit: contain;
+
+
+/* sezione 8 */
+#section-8 {
+    background-color: var(--darkBlue);
+    height: 360px;
+}
+
+
+
+
+/* sezione 9 */
+#section-9 .row {
+    max-width: 35rem;
 }
