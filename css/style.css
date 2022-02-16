@@ -33,6 +33,38 @@ h2 {
     font-size: 2.5rem;
 }
 
+.btn-primary {
+    outline: 0 var(--bs-primary) solid;
+    outline-offset: 0;
+    transition: 0.1s;
+}
+
+.btn-primary:hover {
+    outline-width: 2px;
+    outline-offset: 2px;
+}
+
+.btn-secondary {
+    outline: 0 var(--bs-secondary) solid;
+    outline-offset: 0;
+    transition: 0.1s;
+}
+
+.btn-secondary:hover {
+    outline-width: 2px;
+    outline-offset: 2px;
+}
+
+.btn-danger {
+    outline: 0 var(--bs-danger) solid;
+    outline-offset: 0;
+    transition: 0.1s;
+}
+
+.btn-danger:hover {
+    outline-width: 2px;
+    outline-offset: 2px;
+}
 
 
 
@@ -254,11 +286,14 @@ main {
 #section-6 a {
     background-color: var(--grey3);
     color: var(--blue);
+    outline: 0 var(--grey3) solid;
+    transition: outline 0.1s;
 }
 
 #section-6 a:hover {
     background-color: var(--grey1);
     color: var(--blue);
+    outline-width: 3px;
 }
 
 
