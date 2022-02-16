@@ -167,7 +167,6 @@ main {
 
 
 /* sezione 1 */
-
 #section-1 ._active {
     border: 2px var(--blue) solid;
 }
@@ -193,17 +192,19 @@ main {
     border-radius: 0;
 }
 
-#section-2 ._active {
+#section-2 .btn._active {
     border-bottom: 2px var(--blue) solid;
 }
 
-#section-2 ._thumbs .col:not(._active) {
+#section-2 ._thumbs .btn:not(._active) {
     opacity: 0.75;
-    transition: opacity 0.2s;
+    border-bottom: 2px transparent solid;
+    transition: opacity 0.2s, border 0.2s;
 }
 
-#section-2 ._thumbs .col:hover {
+#section-2 ._thumbs .btn:hover {
     opacity: 1;
+    border-bottom: 2px var(--blue) solid;
 }
 
 
