@@ -96,6 +96,10 @@ header ._link-news::before {
     margin-right: 0.5rem
 }
 
+header ul.list-group {
+    flex-wrap: wrap;
+}
+
 header ul li.list-group-item a {
     box-shadow: none;
     background-color: transparent;
