@@ -57,7 +57,7 @@ h2 {
 
 .btn {
     outline-offset: 0;
-    transition: 0.1s;
+    transition: 0.05s;
 }
 
 .btn:hover {
@@ -228,7 +228,6 @@ main {
 
 #section-1 img:hover {
     transform: translate(0, -8%);
-    cursor: pointer;
 }
 
 
