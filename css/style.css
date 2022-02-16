@@ -218,16 +218,19 @@ main {
 /* sezione 1 */
 #section-1 ._active {
     border: 2px var(--blue) solid;
+    opacity: 1;
 }
 
 #section-1 img {
     border-radius: 1rem;
     transform: translate(0, 0);
-    transition: transform 0.3s;
+    opacity: 0.5;
+    transition: transform 0.3s, opacity 0.3s;
 }
 
 #section-1 img:hover {
     transform: translate(0, -8%);
+    opacity: 1;
 }
 
 
