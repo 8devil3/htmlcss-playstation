@@ -1,3 +1,25 @@
+/* INDICE CSS
+
+1. custom CSS
+2. header
+3. main
+4. jumbotron
+5. sezione 1
+6. sezione 2
+7. sezione 3
+8. sezione 4
+9. sezione 5
+10. sezione 6
+11. sezione 8
+12. sezione 9
+13. footer
+
+*/
+
+
+
+
+
 /* custom CSS */
 :root {
     
@@ -33,38 +55,34 @@ h2 {
     font-size: 2.5rem;
 }
 
-.btn-primary {
-    outline: 0 var(--bs-primary) solid;
+.btn {
     outline-offset: 0;
     transition: 0.1s;
 }
 
-.btn-primary:hover {
+.btn:hover {
     outline-width: 2px;
     outline-offset: 2px;
+}
+
+.btn-primary {
+    outline: 0 var(--bs-primary) solid;
 }
 
 .btn-secondary {
     outline: 0 var(--bs-secondary) solid;
-    outline-offset: 0;
-    transition: 0.1s;
-}
-
-.btn-secondary:hover {
-    outline-width: 2px;
-    outline-offset: 2px;
 }
 
 .btn-danger {
     outline: 0 var(--bs-danger) solid;
-    outline-offset: 0;
-    transition: 0.1s;
 }
 
-.btn-danger:hover {
-    outline-width: 2px;
-    outline-offset: 2px;
+.btn-light {
+    outline: 0 var(--bs-light) solid;
 }
+
+
+
 
 
 
