@@ -123,7 +123,7 @@ header .dropdown-toggle::after {
     display: inline;
 }
 
-header .show::after {
+header .show.dropdown-toggle::after {
     content: "\f077";
     font-family: "Font Awesome 6 Free";
     font-size: 0.8rem;
