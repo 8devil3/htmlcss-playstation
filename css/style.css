@@ -33,11 +33,6 @@ h2 {
     font-size: 2.5rem;
 }
 
-.v-center {
-    vertical-align: middle;
-}
-
-
 
 
 
@@ -296,10 +291,9 @@ footer ._sonyLogo {
     width: 6rem;
 }
 
-footer form i {
-    color: var(--white);
-    font-size: 1.2rem;
-    margin-right: 1rem;
+footer form img {
+    width: 1.5rem;
+    margin-right: 0.5rem;
 }
 
 footer select option, footer select {
